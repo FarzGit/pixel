@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 56px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    
+}
+.container{
+    width: 100%;
+}
+.head-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 51px;
+    
+    
+}
+.img-google{
+    display: flex;
+    padding-left: 20px;
+    margin-left: 39.600px;
+    align-items: center;
+    height: 25px;
+    margin-right: 0;
+    width: 25px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+    column-gap: 30px;
+    font-size: 21px;
+}
+.icons:hover{
+    color: blue;
+}
+.head-block1{
+    width: 100%;
+    height: 236px;
+    background: #ffffff;
+    padding-bottom: 30px;
+}
+.block1{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.inside-block1{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 68px;
+    font-family: Google Sans Display,Roboto, Arial, sans-serif;
+    font-weight: 700;
+    
+}
+.welcom{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.third-block{
+    height: 1921.15px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding-top: 30px;
+}
+.third-block-1{
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    height: 1921.15px;
+}
+.third-block-grid{
+    display: grid;
+    grid-template-columns: 342px 1fr;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+}
+.grid-1{
+    width: 342px;
+    height: 1921.15px;
+    background: #ffffff;
+    padding-right: 24px;
+    cursor: pointer;
+   
+}
+.Product-type{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #787B7D;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+.checkbox{
+    font-weight: 400;
+    font-size: 16px;
+    color: #5F6368;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+.content{
+    margin: 5px;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: 316px 316px 316px;
+    grid-template-rows: 400px 400px 400px;
+    row-gap: 85px;
+    column-gap: 22px;
+    background: white;
+    height:1400px;
+    
+}
+.grid-2-1{
+    background: #F8F9FA; 
+    height: 400px;
+}
+.pixel{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+    
+}
+.pixel:hover{
+    transform: scale(1.1); 
+}
+.grid-2-2{
+    background: #F8F9FA;
+}
+.pixel7Pro{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel7Pro:hover{
+    transform: scale(1.1); 
+}
+.grid-2-3{
+    background: #F8F9FA;
+}
+.pixel7{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel7:hover{
+    transform: scale(1.1); 
+}
+.grid-2-4{
+    background: #F8F9FA;
+}
+.pixel6{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel6:hover{
+    transform: scale(1.1); 
+}
+.grid-2-5{
+    background: #F8F9FA;
+}
+.pixel-nest{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel-nest:hover{
+    transform: scale(1.1); 
+}
+.grid-2-6{
+    background: #F8F9FA;
+}
+.pixel-camera{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel-camera:hover{
+    transform: scale(1.1); 
+}
+.grid-2-7{
+    background: #F8F9FA;
+}
+.pixel-nestMini{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel-nestMini:hover{
+    transform: scale(1.1); 
+}
+.grid-2-8{
+    background: #F8F9FA;
+}
+.pixel-nestAudio{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+} 
+.pixel-nestAudio:hover{
+    transform: scale(1.1); 
+}
+.grid-2-9{
+    background: #F8F9FA;
+}
+.pixel-pouch{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+}
+.pixel-pouch:hover{
+    transform: scale(1.1); 
+}
+.grid-2-10{
+    background: #F8F9FA;
+    height: 400px;
+}
+.pixel-charger{
+    padding-left: 24px;
+    width: 287px;
+    padding-top: 59px;
+    height: 270px;
+    transition: 0.6s;
+} 
+.pixel-charger:hover{
+    transform: scale(1.1); 
+}
+
+.product{
+    height: 400px;
+    
+}
+.product-name{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    padding-top: 15px;
+    cursor: pointer;
+    columns: #3C4043;
+}
+.footer{
+    width: 100%;
+    height: 282px;
+    background: #ffffff;
+}
+.footer-content{
+    padding-top: 96px;
+    padding-bottom: 72px;
+    padding-right: 72px;
+    padding-left: 1033px;
+}
+.item1{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Google Sans", Arial, sans-serif;
+    color: #5F6368;
+}
+.item2{
+    padding-left: 60px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Google Sans", Arial, sans-serif;
+    color: #5F6368;
+}.item1:hover{
+    color: blue;
+}
+.item2:hover{
+    color: blue;
+}
+.last-footer{
+    height: 52px;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.last-footer1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 100px;
+    column-gap: 19px;
+    cursor: pointer;
+}
+.last-footer2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 54px;
+    padding-right: 72px;
+    font-size: 11px;
+    align-items: center;
+    font-family: "Google Sans", arial, sans-serif;
+    color: #5F6368;
+    font-weight: 300;
+    cursor: pointer;
+  
+}
+
+
+
+
+
+
+
+
+
+
+.fa-solid:hover{
+    filter: invert(9%) sepia(100%) saturate(6776%) hue-rotate(246deg) brightness(96%) contrast(147%);
+
+}
+
